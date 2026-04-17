@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b564ed0-d57f-4985-9247-9f664d3754d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AlumnesProfes/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/AutoElite/Esportiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/AutoElite/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/AutoElite/SUV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/AutoElite/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/AutoElite/Vista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoElite/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BrawlStars01/src/BrawlStars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClaseArticle01/src/Controlador/Cistella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClaseArticle01/src/Model/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collections-Exceptions2/src/Alimentacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collections-Exceptions2/src/Electronica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collections-Exceptions2/src/Producte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collections-Exceptions2/src/Textil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Collections-Exceptions2/src/Vista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFichers00/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFichers00/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ExamenFichers00/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici_Collections/src/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici_Collections/src/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercici_Collections/src/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GesPersistencia/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GesPersistencia/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GesPersistencia/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GesPersistencia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GesPersistencia/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestPersistencia01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestPersistencia01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestPersistencia01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestPersistencia01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestPersistencia01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main9/src/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Main9/src/GestioCompres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasCollections/src/ExamenLlapis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasCollections/src/Llapis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaPaMercat01/src/ExcepcionsPropies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaPaMercat2026/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaPaMercat2026/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaPaMercat2026/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SaPaMercat2026/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SapaMercatExamen00/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SapaMercatExamen00/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes i Profes02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes i Profes02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes i Profes02/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes i Profes02/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes i Profes02/src/Membre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes i Profes02/src/Membre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes/src/Model/Membre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes/src/Model/Membre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes01/src/Alumne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes01/src/Alumne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes01/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes01/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes01/src/Membre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes01/src/Membre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes01/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes01/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Alumnes y Profes01/src/ProvaInstitut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Alumnes y Profes01/src/ProvaInstitut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Article/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Article/src/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Article/src/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Article/src/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Article/src/Cistella.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Article/src/Cistella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Article01/src/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Article01/src/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Article01/src/Cistella.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Article01/src/Cistella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/Ordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/Ordinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/Ratoli.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/Ratoli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/TallerControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/TallerControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/Teclat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/Teclat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador1/src/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador1/src/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Ordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Ordinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Ratoli.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Ratoli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Taller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Taller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Teclat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Teclat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Ordinador2/src/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Ordinador2/src/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase Persona01/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase Persona01/src/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coche/src/Controlador/CocheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coche/src/Controlador/CocheController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coche/src/Model/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coche/src/Model/Coche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coche/src/View/CocheView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coche/src/View/CocheView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/Alimentació.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/Alimentació.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/Electronica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/Electronica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/MercatVista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/MercatVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/Productes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/Productes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collection-Exception/src/Textil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection-Exception/src/Textil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/src/Model/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/src/Model/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/src/Model/Habitatge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/src/Model/Habitatge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/src/Model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/src/Model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/src/Model/Pis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/src/Model/Pis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen Domus/src/Vista/Vista.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen Domus/src/Vista/Vista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen/Examen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/Examen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fitchers1/src/Apunts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fitchers1/src/Apunts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gestio_Arxius/src/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gestio_Arxius/src/Exer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Llapis_i_Daus01/src/Llapis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Llapis_i_Daus01/src/Llapis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Llapis_i_Daus01/src/MainLlapis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Llapis_i_Daus01/src/MainLlapis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Aeri.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Aeri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Avio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Avio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Cotxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Cotxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Maritim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Maritim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Patinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Patinet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Submari.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Submari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Terrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Terrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/TransportsProva.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/TransportsProva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Tren.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Tren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Vaixell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Vaixell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Aeri.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Aeri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Avio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Avio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Cotxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Cotxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Maritim.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Maritim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Menú.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Menú.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Patinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Patinet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Submari.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Submari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Terrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Terrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Tren.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Tren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mitjans de Transport02/src/Vaixell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport02/src/Vaixell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ordinador/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ordinador/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Plantilla-Coches/src/controller/CotxeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Plantilla-Coches/src/controller/CotxeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Plantilla-Coches/src/view/CotxeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Plantilla-Coches/src/view/CotxeView.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;iviana-221&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/iviana-221/IntelliJ.git&quot;,
+    &quot;accountId&quot;: &quot;5c30affd-a67f-4ddd-8085-c7ade5fe8174&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3CQf79DmkwZPdPewYeJw3B9z6lE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/ivian/IdeaProjects/GestiorPersistencia/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b564ed0-d57f-4985-9247-9f664d3754d9" name="Changes" comment="" />
+      <created>1776322547893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776322547893</updated>
+    </task>
+    <servers />
+  </component>
+</project>
