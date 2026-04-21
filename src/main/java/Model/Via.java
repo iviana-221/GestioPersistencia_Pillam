@@ -17,6 +17,17 @@ public class Via {
     protected int idSector;
     protected int idCreador;
 
+    public Via(LocalDateTime data, String estat, String grau, int idCreador, int idSector, String orientacio, String nom, String restriccions, String tipusRoc) {
+        this.data = data;
+        this.estat = estat;
+        this.grau = grau;
+        this.idCreador = idCreador;
+        this.idSector = idSector;
+        this.orientacio = orientacio;
+        this.nom = nom;
+        this.restriccions = restriccions;
+        this.tipusRoc = tipusRoc;
+    }
 
     public LocalDateTime getData() {
         return data;

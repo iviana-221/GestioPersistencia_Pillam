@@ -1,15 +1,23 @@
 package Model;
 
 
+import Excepcions.ExcepcionsPropies;
+import Excepcions.ExcepcionsPropies.MetresInvalidsException;
+
+import java.time.LocalDateTime;
+
 public class ViaEsportiva extends Via {
     private int llargada;
     private String ancoratge;
     private String tipoRoca;
 
-    public ViaEsportiva(String ancoratge, int llargada, String tipoRoca) {
+    public ViaEsportiva(LocalDateTime data, String estat, String grau, int idCreador, int idSector, String orientacio, String nom, String restriccions, String tipusRoc, String ancoratge, int llargada, String tipoRoca) {
+        super(data, estat, grau, idCreador, idSector, orientacio, nom, restriccions, tipusRoc);
         this.ancoratge = ancoratge;
-        this.llargada = llargada;
         this.tipoRoca = tipoRoca;
+
+        //Si el dato está mal avisamos antes de que se cree.
+        setLlargada(llargada);
     }
 
     public String getAncoratge() {
@@ -25,10 +33,10 @@ public class ViaEsportiva extends Via {
     }
 
     public void setLlargada(int llargada) {
-        if(llargada < 30 && llargada > 5){
+        if(llargada <= 30 && llargada >= 5){
             this.llargada = llargada;
-        }else {
-            throw new IllegalArgumentException("La llaragda ha de ser entre 30 y 50 metres");
+        } else {
+            throw new MetresInvalidsException(llargada);
         }
 
     }
@@ -41,3 +49,16 @@ public class ViaEsportiva extends Via {
         this.tipoRoca = tipoRoca;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
