@@ -1,5 +1,7 @@
 package Model;
 
+import Excepcions.ExcepcionsPropies.DadaInvalidaException;
+
 public class Escalador {
     private int id; //Este id representa el id del sql.
     private String nom;
@@ -30,6 +32,8 @@ public class Escalador {
     public void setEdat(int edat) {
         if(edat < 0 && edat <= 120 ){
             this.edat = edat;
+        }else {
+            throw new  DadaInvalidaException("L'edat ha de ser entre 0 i 110 anys.");
         }
 
     }
@@ -45,7 +49,7 @@ public class Escalador {
     public String getNivellMaxim() {
         return nivellMaxim;
     }
-
+//Toca validar los datos
     public void setNivellMaxim(String nivellMaxim) {
         this.nivellMaxim = nivellMaxim;
     }
@@ -57,4 +61,5 @@ public class Escalador {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
 }

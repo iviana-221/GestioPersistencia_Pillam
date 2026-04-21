@@ -92,6 +92,10 @@
       <change beforePath="$PROJECT_DIR$/../Examen/Examen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen/Examen.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Fitchers1/src/Apunts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fitchers1/src/Apunts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Gestio_Arxius/src/Exer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gestio_Arxius/src/Exer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Excepcions/ExcepcionsPropies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Excepcions/ExcepcionsPropies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Escalador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Escalador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ViaEsportiva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ViaEsportiva.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Llapis_i_Daus01/src/Llapis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Llapis_i_Daus01/src/Llapis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Llapis_i_Daus01/src/MainLlapis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Llapis_i_Daus01/src/MainLlapis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mitjans de Transport01/src/Aeri.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mitjans de Transport01/src/Aeri.java" afterDir="false" />
@@ -177,6 +181,11 @@
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
