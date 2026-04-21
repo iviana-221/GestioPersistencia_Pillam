@@ -28,7 +28,10 @@ public class Escalador {
     }
 
     public void setEdat(int edat) {
-        this.edat = edat;
+        if(edat < 0 && edat <= 120 ){
+            this.edat = edat;
+        }
+
     }
 
     public int getId() {
