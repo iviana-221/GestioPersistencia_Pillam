@@ -4,6 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+//Dos tipos de conexiones necesarias(mysql y otra como postgres)
+//Menús
+//Conexion por operacion.
+
+
 public class JDBC {
     private static final String URL = "jdbc:mysql://localhost:3306/pillam_db";
     private static final String USER = "root";

@@ -1,6 +1,7 @@
 package Model;
 
 import Excepcions.ExcepcionsPropies.DadaInvalidaException;
+import Excepcions.ExcepcionsPropies;
 
 public class Escalador {
     private int id; //Este id representa el id del sql.
@@ -11,8 +12,8 @@ public class Escalador {
 
     public Escalador(String alias, int edat, String nivellMaxim, String nom) {
         this.alias = alias;
-        this.edat = edat;
-        this.nivellMaxim = nivellMaxim;
+        setEdat(edat);
+        setNivellMaxim(nivellMaxim);
         this.nom = nom;
         //Sin id ya que lo pone el mysql.
     }
@@ -51,6 +52,9 @@ public class Escalador {
     }
 //Toca validar los datos
     public void setNivellMaxim(String nivellMaxim) {
+        if (!nivellMaxim.matches("^([4-9][abc]?\\+?)$")) {
+            throw new ExcepcionsPropies.DadaInvalidaException("El nivell '" + nivellMaxim + "' no segueix el format oficial.");
+        }
         this.nivellMaxim = nivellMaxim;
     }
 

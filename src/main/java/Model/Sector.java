@@ -1,5 +1,7 @@
 package Model;
 
+import Excepcions.ExcepcionsPropies;
+
 public class Sector {
     private int id;
     private String nom;
@@ -16,7 +18,7 @@ public class Sector {
         this.latitud = latitud;
         this.longitud = longitud;
         this.aproximacio = aproximacio;
-        this.popularitat = popularitat;
+        setPopularitat(popularitat);
         this.restriccions = restriccions;
     }
 
@@ -73,6 +75,9 @@ public class Sector {
     }
 
     public void setPopularitat(String popularitat) {
+        if (!popularitat.matches("^(baixa|mitjana|alta)$")) {
+            throw new ExcepcionsPropies.DadaInvalidaException("Popularitat ha de ser: baixa, mitjana o alta.");
+        }
         this.popularitat = popularitat;
     }
 
