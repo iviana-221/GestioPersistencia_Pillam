@@ -1,56 +1,54 @@
-package DAO;
+package Model.DAO;
 
 import Conexió.Conexio;
-import Conexió.IConexio;
 import Model.Escalador;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class EscaladorDAO implements GenericDAO<Escalador> {
-
-    private final IConexio gestorConexio = new Conexio();
+    private final Conexio gestorConexio = new Conexio();
 
     @Override
     public void insertar(Escalador e) {
-        String sql = "INSERT INTO escaladors (nom, edat) VALUES (?, ?)";
-
+        String sql = "INSERT INTO Escaladors (nom, alias, edat, nivell_maxim, nacionalitat) VALUES (?, ?, ?, ?, ?)";
         try (Connection con = gestorConexio.getConexion();
              PreparedStatement pstmt = con.prepareStatement(sql)) {
-
             pstmt.setString(1, e.getNom());
-            pstmt.setInt(2, e.getEdat());
+            pstmt.setString(2, e.getAlias());
+            pstmt.setInt(3, e.getEdat());
+            pstmt.setString(4, e.getNivellMaxim());
+            pstmt.setString(5, e.getNacionalitat());
             pstmt.executeUpdate();
-
-            System.out.println("✅ Escalador guardat correctament!");
-
-        } catch (SQLException ex) {
-            System.out.println("❌ Error al insertar: " + ex.getMessage());
-        }
+            System.out.println("Escalador guardat!");
+        } catch (SQLException ex) { ex.printStackTrace(); }
     }
 
     @Override
     public List<Escalador> listarTodos() {
         List<Escalador> lista = new ArrayList<>();
-        String sql = "SELECT * FROM escaladors";
-
+        String sql = "SELECT * FROM Escaladors";
         try (Connection con = gestorConexio.getConexion();
              Statement stmt = con.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
-
             while (rs.next()) {
                 Escalador e = new Escalador(
-                        rs.getString("alias"),rs.getInt("edat"), rs.getString("nivellMaxim"),rs.getString("nacionalitat")
+                        rs.getString("alias"), rs.getInt("edat"),
+                        rs.getString("nivell_maxim"), rs.getString("nom"),
+                        rs.getString("nacionalitat")
                 );
+                e.setId(rs.getInt("id"));
                 lista.add(e);
             }
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
+        } catch (SQLException ex) { ex.printStackTrace(); }
         return lista;
     }
 
-    @Override public void modificar(Escalador e) {  }
-    @Override public void eliminar(int id) { }
+    @Override public void modificar(Escalador e) {
+
+
+
+    }
+    @Override public void eliminar(int id) {  }
     @Override public Escalador buscarPorId(int id) { return null; }
 }
