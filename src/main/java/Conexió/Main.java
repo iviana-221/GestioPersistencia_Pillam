@@ -1,6 +1,6 @@
 package Conexió;
 
-import Model.DAO.*;
+import DAO.*;
 import Model.*;
 import java.util.Scanner;
 import java.time.LocalDateTime;

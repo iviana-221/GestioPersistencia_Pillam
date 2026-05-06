@@ -1,4 +1,4 @@
-package Model.DAO;
+package DAO;
 
 import Conexió.Conexio;
 import Model.Escola;
