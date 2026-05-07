@@ -1,10 +1,11 @@
-package Conexió;
+package Controlador;
 
 import DAO.*;
 import Model.*;
 import java.util.Scanner;
 import java.time.LocalDateTime;
 import Excepcions.*;
+import Vista.*;
 
 public class Main {
     private static final Scanner sc = new Scanner(System.in);
@@ -18,14 +19,7 @@ public class Main {
         String opcio = "";
         while (num != 0) {
             try{
-            System.out.println("\n====================================");
-            System.out.println("   GESTIÓ DE PERSISTÈNCIA PILLAM");
-            System.out.println("====================================");
-            System.out.println("1. Gestió d'Escaladors");
-            System.out.println("2. Gestió d'Escoles");
-            System.out.println("3. Gestió de Vies");
-            System.out.println("0. Sortir");
-            System.out.print("\nTria una categoria: ");
+            Vista.menuPrincipal();
             opcio = sc.nextLine();
                 if(!opcio.matches("^[0-3]$")){throw new Exception();}
                 num = ExcepcionsPropies.comprovacionNum(opcio);
@@ -43,15 +37,11 @@ public class Main {
     }
 
     private static void menuEscaladors() {
-        System.out.println("\n--- SUBMENÚ ESCALADORS ---");
-        System.out.println("1. Afegir nou Escalador");
-        System.out.println("2. Llistar tots els Escaladors");
-        System.out.println("3. Tornar");
-        System.out.print("Selecciona: ");
-
-        int sub = Integer.parseInt(sc.nextLine());
-
+        Vista.menuEscalador();
+        String opcio = sc.nextLine();
         try {
+            if(!opcio.matches("^[0-2]$")){throw new Exception();}
+            int sub = Integer.parseInt(opcio);
             if (sub == 1) {
                 System.out.print("Nom: "); String nom = sc.nextLine();
                 System.out.print("Alias (únic): "); String alias = sc.nextLine();
@@ -73,11 +63,7 @@ public class Main {
     }
 
     private static void menuEscoles() {
-        System.out.println("\n--- SUBMENÚ ESCOLES ---");
-        System.out.println("1. Registrar Escola");
-        System.out.println("2. Llistar Escoles");
-        System.out.print("Selecciona: ");
-
+        Vista.menuEscoles();
         int sub = Integer.parseInt(sc.nextLine());
 
         try {
@@ -100,13 +86,8 @@ public class Main {
     }
 
     private static void menuVies() {
-        System.out.println("\n--- SUBMENÚ VIES ---");
-        System.out.println("1. Afegir Via");
-        System.out.println("2. Llistar Vies");
-        System.out.print("Selecciona: ");
-
+        Vista.menuVies();
         int sub = Integer.parseInt(sc.nextLine());
-
         try {
             if (sub == 1) {
                 System.out.print("Nom de la via: "); String nom = sc.nextLine();

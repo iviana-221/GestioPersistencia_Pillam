@@ -1,6 +1,6 @@
 package DAO;
 
-import Conexió.Conexio;
+import Conexio.Conexio;
 import Model.Escola;
 import java.sql.*;
 import java.util.ArrayList;

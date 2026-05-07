@@ -1,6 +1,6 @@
 package DAO;
 
-import Conexió.Conexio;
+import Conexio.Conexio;
 import Model.Escalador;
 import java.sql.*;
 import java.util.ArrayList;
