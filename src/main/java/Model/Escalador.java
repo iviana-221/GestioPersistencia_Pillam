@@ -9,13 +9,23 @@ public class Escalador {
     private String alias;
     private int edat;
     private String nivellMaxim;
+    private String Nacionalitat;
 
-    public Escalador(String alias, int edat, String nivellMaxim, String nom) {
+    public Escalador(String alias, int edat, String nivellMaxim, String nom,String Nacionalitat) {
         this.alias = alias;
         setEdat(edat);
         setNivellMaxim(nivellMaxim);
         this.nom = nom;
+        this.Nacionalitat = Nacionalitat;
         //Sin id ya que lo pone el mysql.
+    }
+
+    public String getNacionalitat() {
+        return Nacionalitat;
+    }
+
+    public void setNacionalitat(String nacionalitat) {
+        Nacionalitat = nacionalitat;
     }
 
     public String getAlias() {
